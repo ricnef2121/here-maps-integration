@@ -13,5 +13,10 @@
  
 ## Ejemplo de uso:
 ```
- <MapaHEREReactComponent apiKey={process.env.NEXT_PUBLIC_HERE_API_KEY} center={{lat:19.43,lng:-99.13}} zoom={13} markers={[{id:'m1',lat:19.43,lng:-99.13,label:'CDMX'}]} />
+ <MapaHEREReactComponent 
+ apiKey={process.env.NEXT_PUBLIC_HERE_API_KEY} 
+ center={{lat:19.43,lng:-99.13}} 
+ zoom={13} 
+ markers={[{id:'m1',lat:19.43,lng:-99.13,label:'CDMX'}]} 
+ />
 ```
